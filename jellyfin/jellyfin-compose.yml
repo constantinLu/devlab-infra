@@ -12,13 +12,13 @@ services:
     volumes:
       #- /mnt/devlab-share/jellyfin/conf:/config #right side inside the container
       - /home/gizet/jellyfin/config:/config
-      #- /mnt/devlab-share/jellyfin/media/configuration:/data/config #
       - /mnt/devlab-share/jellyfin/cache:/cache #
-      - /mnt/devlab-share/jellyfin/media/tvshows:/data/tvshows #
+      #      - /mnt/devlab-share/jellyfin/media/tvshows:/data/tvshows #
       - /mnt/devlab-share/jellyfin/media/movies:/data/movies #
       - /mnt/devlab-share/jellyfin/media/shorts:/data/shorts #
       - /mnt/devlab-share/jellyfin/media/photos:/data/photos #
       - /mnt/devlab-share/jellyfin/media/music:/data/music #
+      - /mnt/devlab-share/05 Media/04 TV Shows:/data/tvshows #
     ports:
       - 8096:8096
       - 8920:8920 #optional
