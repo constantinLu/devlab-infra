@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b61d571-52a2-4518-971f-1c6ed96cfd94" name="Changes" comment="- initial commit&#10;- jellyfin compose file added">
+    <list default="true" id="6b61d571-52a2-4518-971f-1c6ed96cfd94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jellyfin/jellyfin-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jellyfin/jellyfin-compose.yml" afterDir="false" />
     </list>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687180526604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- initial commit&#10;- jellyfin compose file added">
+      <created>1687185875568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687185875568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
