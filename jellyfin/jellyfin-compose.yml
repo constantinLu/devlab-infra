@@ -11,8 +11,8 @@ services:
       - JELLYFIN_PublishedServerUrl=192.168.0.203 #optional
     volumes:
       #- /mnt/devlab-share/jellyfin/conf:/config #right side inside the container
-      #- /home/gizet/jellyfin/config:/config
-      - /mnt/devlab-share/jellyfin/media/configuration:/config #
+      - /home/gizet/jellyfin/config:/config
+      #- /mnt/devlab-share/jellyfin/media/configuration:/data/config #
       - /mnt/devlab-share/jellyfin/cache:/cache #
       - /mnt/devlab-share/jellyfin/media/tvshows:/data/tvshows #
       - /mnt/devlab-share/jellyfin/media/movies:/data/movies #
