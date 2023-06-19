@@ -10,8 +10,9 @@ services:
       - TZ=Etc/UTC
       - JELLYFIN_PublishedServerUrl=192.168.0.203 #optional
     volumes:
-      #- /home/gizet/jellyfin/config:/config #on the right side is on the container and left-side is on the sharedrive
-      - /mnt/devlab-share/00 Infra/Jellyfin/config:/config #
+      #on the right side is on the container and left-side is on the sharedrive
+      - /home/gizet/jellyfin/config:/config
+      #- /mnt/devlab-share/00 Infra/Jellyfin/config:/config #this is not working since The database is locked error when adding the config on the sharedrive
       - /mnt/devlab-share/00 Infra/Jellyfin/cache:/cache #
       - /mnt/devlab-share/05 Media/03 Movies:/data/movies #
       - /mnt/devlab-share/05 Media/04 TV Shows:/data/tvshows #
