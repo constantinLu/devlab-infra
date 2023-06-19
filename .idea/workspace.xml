@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b61d571-52a2-4518-971f-1c6ed96cfd94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devlab-infra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jellyfin/jellyfin-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jellyfin/jellyfin-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jellyfin/jellyfin-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +46,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687179288166</updated>
-      <workItem from="1687179289292" duration="1143000" />
+      <workItem from="1687179289292" duration="1667000" />
     </task>
+    <task id="LOCAL-00001" summary="- initial commit&#10;- jellyfin compose file added">
+      <created>1687180508640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687180508640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- initial commit&#10;- jellyfin compose file added">
+      <created>1687180526604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687180526604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="- initial commit&#10;- jellyfin compose file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- initial commit&#10;- jellyfin compose file added" />
   </component>
 </project>
